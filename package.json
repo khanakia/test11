@@ -1,0 +1,27 @@
+{
+  "name": "button-text-input-autofocus-bug",
+  "version": "1.0.0",
+  "description": "Attempt to recreate error thrown in button node when span text opens and auto focuessed text input, then undo is attempted:\n    // A non-blocking error is thrown when:\n    // 1. Click button text when node is not selected\n    // 2. Deselect node by clicking text in editor",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@lexical/react": "0.3.8",
+    "lexical": "0.3.8",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
